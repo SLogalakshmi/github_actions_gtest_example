@@ -106,6 +106,7 @@ TEST(pass_a_single_value, returns_0_for_empty_string){
     string input = "";
     int output = 0;
     int actualoutput = stringCalculator.Add(input);
+    ASSERT_EQ(actualoutput,output);
  
 }
 
